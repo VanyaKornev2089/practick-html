@@ -73,18 +73,19 @@
             height: 41.5rem  
             float: right   
     .description
-        display: flex
-        justify-content: space-between
-        margin-top: 5.0625rem
-        font-size: 2rem
-        &__title
+        &-inf
+            display: flex
+            justify-content: space-between
             margin-top: 5.0625rem
-        &__text
-            margin-top: 2.4375rem
-            opacity: 0.4
-             &:last-child
+            font-size: 2rem
+            flex-direction: column
+            &__title
+                margin-top: 5.0625rem
+            &__text
+                margin-top: 2.4375rem
+                opacity: 0.4
+                &:last-child
                     margin-bottom: 0
-        &-text
             &__item
                 max-width: 39.75rem
                 font-size: 1.375rem
