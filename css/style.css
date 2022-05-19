@@ -730,4 +730,29 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+.section-benefits {
+  padding: 8.6875rem 0;
+}
+
+.section-benefits .container-benefits {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-benefits .benefits-list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.25rem;
+}
+
+.section-benefits .benefits-list__item:last-child {
+  margin: 0;
+}
+
+.section-benefits .benefits-list__text {
+  margin-left: 1.5rem;
+  font-size: 1.625rem;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
